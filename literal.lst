@@ -1,0 +1,13 @@
+00000            LIT  START   0    
+00000  032000         LDA     *0 (WORD 6)    
+00003                 LTORG       
+00003  000006    *0   WORD    6    
+00006  6F2000         LDS     *1 (WORD 5)    
+00009                 LTORG       
+00009  000005    *1   WORD    5    
+0000C  772005         LDT     *2 (WORD 9)    
+0000F  9005           ADDR    A,T    
+00011  872003         STT     C    
+00014  000009    *2   WORD    9    
+00017                 END     LIT    
+00017  000000    C    RESW    1    
